@@ -1,0 +1,74 @@
+.genre-container {
+    /*background: white;*/
+    padding: 20px;
+    margin-top: 20px;
+    /*display: flex;*/
+    /*flex-direction: ;*/
+}
+
+.page-name {
+    color: white;
+    margin-left: 40px;
+}
+
+.genre-btns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 50px;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+}
+
+.genre-btns button {
+    height: fit-content;
+    background: none;
+    border: 1px solid white;
+    /*border-top: 1px solid #3806FE;*/
+    /*border-bottom: none;*/
+    /*border-left: none;*/
+    /*border-right: none;*/
+    border-radius: 5px;
+    color: white;
+    transition: 0.15s ease-in-out;
+    padding: 10px;
+}
+
+.genre-btns button:hover {
+    /*border-top: 3px solid #3806FE;*/
+    background: white;
+    color: #000001;
+
+}
+
+.genre-container h1 {
+    margin: 40px 30px 40px 0;
+    color: white;
+}
+
+.genre-results-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+    color: white;
+}
+
+.genre-results-container .genre-card img {
+    object-fit: cover;
+    height: 400px;
+    justify-self: center;
+    transition: 0.25s ease-in-out;
+
+}
+
+.genre-results-container .genre-card {
+    height: fit-content;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.genre-results-container a {
+    text-decoration: none;
+    color: white;
+}
